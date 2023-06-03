@@ -5,7 +5,7 @@
     
   }
   .main{
-    width:100vw;
+    width:98vw;
   }
   
   .first-part{
@@ -59,11 +59,11 @@
     color:white;
     font-weight: bold;
     border-radius:20px;
-    height:5vw;
+    height:4vw;
     width: 20vw;
     margin-left: 14.8vw;
     position: relative;
-    top:-30vw;
+    top:-35vw;
     
 }
 
@@ -94,24 +94,28 @@
   font-family: 'Proxima Nova';
   font-size: 6vw;
   text-align: center;
+  margin-top:2vw;
 }
 .about-part{
-  width:100vw;
+  width:99vw;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items:center;
-  margin-top: 8vw;
+  margin-top: 0;
 
 }
 .about-part img{
-  height: 20vw;
-  margin: 5vw;
+  height: 25vw;
+  width:43vw;
+  margin: 3vw;
   border-radius:0.8vw;
+  
 }
 .h1about{
-  padding-top:10vw;
+  margin-top:0;
+  margin-bottom:0;
   color:#1f212d;
   font-size: 8vw;
   text-align: center;
@@ -119,9 +123,10 @@
 .about-part p{
   color:#1f212d;
   font-size: 2vw;
+  padding-right:2vw;
 }
 .h1agenda{
-  margin-top: 6vw;
+  margin-top: 8vw;
   color:#1f212d;
   font-size: 5vw;
   text-align: center;
@@ -133,12 +138,14 @@
   flex-direction: row;
   justify-content: center;
   align-items:center;
-  margin-top: 0;
+  margin-top: 0w;
+  width:100vw;
+  background:#2ea3dd;
 
 }
 .agenda-part img{
   height: 22vw;
-  margin: 5vw;
+  margin: 3vw;
   border-radius:0.8vw;
 }
 .agenda-part h1{
@@ -147,7 +154,7 @@
 }
 .agenda-part p{
   color:#1f212d;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
 }
 
 .btnprog{
@@ -156,7 +163,7 @@
   font-size: 1.5vw;
   color:white;
   border-radius:10px;
-  height:6vw;
+  height:3.5vw;
   width: 15vw;
   margin-left:22vw;
 
@@ -164,8 +171,8 @@
 }
 
 .btnprog:hover{
-  background-color:#2ea3dd;
-  
+  background-color:#e0ded2;
+  color:#1f212d;
 }
 
 @media (max-width: 1080px){
@@ -175,7 +182,12 @@
     
   
   }
-  
+  .h1about{
+    padding-top:10vw;
+    color:#1f212d;
+    font-size: 8vw;
+    text-align: center;
+  }
   
 
 
