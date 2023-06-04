@@ -1,0 +1,140 @@
+.foot{
+    background-color: #1f212d;
+    padding-bottom:0;
+    height:60vh;
+    margin-top: 6vw;
+    padding-top: 3vw;
+  
+  }
+  
+  
+  footer .container{
+  
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom:0;
+    margin-bottom:0;
+    height:50vh;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .f-col{
+    width: 32%;
+    padding: 0 2vw
+  }
+  
+  .f-col h3{
+  text-align:center;
+    font-size: 2vw;
+  color: white;
+  margin-bottom: 8vh;
+  font-weight: 500;
+  position: relative;
+  }
+  
+  .f-col h3::before{
+    content: '';
+   position: absolute;
+   
+   bottom: -0.8vw;
+   background-color: #2ea3dd;
+  height: 0.12vw;
+  box-sizing: border-box;
+  width: 5vw;
+  }
+  
+  .f-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  
+  .f-col ul li a {
+    padding-top: 0.5vw;
+    font-size: 1.5vw;
+    font-family: futura bold;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+  }
+  
+  
+  
+  .f-col ul li a:hover{
+    color: #2ea3dd;
+    padding-left: 0.9vw;
+  }
+  
+  .f-col ul li i {
+    background-color: white;
+    height: 40px;
+  width: 40px;
+    text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+    color: #1d202b;
+    transition: all 0.5s ease;
+    margin-left:0;
+    
+  }
+  .ulfoot{
+    padding-left: 5vw;
+  }
+  .icon-center{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    
+  }
+  .icon-center div i{
+    height: 7vw;
+    width: 7vw;
+    margin:0 1vw 1vw 1vw;
+    text-align: center;
+    line-height: 7vw;
+    border-radius: 50%;
+    margin-left:3vw;
+    color: #1f212d;
+    
+  } 
+  .f-col .icon-right a {
+    display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #2ea3dd;
+  margin:0 1vw 1vw 1vw;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-left:3vw;
+  color: #1f212d;
+  transition: all 0.5s ease;
+    
+  }
+  
+  
+ .imaglogo{
+    background-image:url('../Assets/logo.png');
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 20vw;
+    width: 20vw;
+    margin-bottom: 0;
+ } 
+  .f-col .icon-right a:hover{
+    color: white;
+    background-color:#3107c7;
+  }
+  
+  footer p{
+    font-family: futura bold;
+    font-size: 1.5vw;
+    color:white;
+    
+  }

@@ -16,10 +16,10 @@ function Navbar() {
             <img className="logo" src={logo}></img>
           
 			<nav ref={navRef}>
-				<a href="/#" className="navbar-text">Home</a>
-				<a href="/#" className="navbar-text">My work</a>
-				<a href="/#" className="navbar-text">Blog</a>
-				<a href="/#" className="navbar-text">About me</a>
+				<a href="/#" className="navbar-text">Acceuil</a>
+				<a href="/#" className="navbar-text">Agenda</a>
+				<a href="/#" className="navbar-text">Inscription</a>
+				<a href="/#" className="navbar-text">Orateurs</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
